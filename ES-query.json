@@ -17,3 +17,12 @@ GET ~/sda_alerts/_search
    }
 }
 
+Above should be the query to be used using REST API, to collect as SQL query below:-
+ 
+
+SELECT COUNT(*) FROM sda_alerts
+WHERE loc_beacon_minor > 0
+GROUP BY loc_beacon_minor;
+
+ 
+And I believe it is sorted condescendingly.
