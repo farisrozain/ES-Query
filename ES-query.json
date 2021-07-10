@@ -1,4 +1,4 @@
-GET https://search-satu-production-analytic-jq4up3h7p3updjkdhbn3vnetpq.ap-southeast-1.es.amazonaws.com/sda_alerts/_search
+GET ~/sda_alerts/_search
 {
     "size": 0,
     "query": {
