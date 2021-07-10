@@ -1,0 +1,18 @@
+{
+    "size": 0,
+    "query": {
+        "range": {
+            "loc_beacon_minor": {
+                "gt": 0
+                 }
+             }
+        },
+    "aggs": {
+      "loc_beacon_minor_terms": {
+         "terms": {
+            "field": "loc_beacon_minor.keyword"
+         }
+      }
+   }
+}
+
